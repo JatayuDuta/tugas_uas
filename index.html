@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- cdn bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- css eksternal -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- javascript eksternal -->
+  <link rel="stylesheet" href="script.js">
+
+  <!-- owl carousel cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- link font awesome -->
+  <script src="https://kit.fontawesome.com/98d67327d3.js" crossorigin="anonymous"></script>
+
+  <title>Online Clinic</title>
+  <link rel="icon" type="image/x-icon" href="no-bg1.png">
+</head>
+
+
+<body id="home">
+
+  <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);">
+      <div class="container">
+        
+        <a class="navbar-brand" href="#home">
+          <img src="no-bg2.png" alt="logo" style="width:40px;">
+          Nugraha's Clinic
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#services">General Practicioner | Dokter Umum</a></li>
+                <li><a class="dropdown-item" href="#dokteranak">Pediatric | Spesialis Anak</a></li>
+                <li><a class="dropdown-item" href="#doktermata">Ophthalmologist | Spesialis Mata</a></li>
+                <li><a class="dropdown-item" href="#dokterTHT">ENT Specialist | Spesialis THT</a></li>
+                <li><a class="dropdown-item" href="#dokterObgyn">Obgyn | Spesialis Kandungan</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#timetable">Timetable</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faqs">FAQs</a>
+            </li>
+            <button type="button" class="btn btn-primary" style="margin-left: 10px;">Login Admin</button>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+  <!-- akhir navbar -->
+
+
+  <!-- carousel slide -->
+  <section class="carousel" id="carousel">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="overlay-image" style="background-image: url(1.png);"></div>
+              <div class="container crs" style="text-align: center;">
+                  <div class="row">
+                      <div class="col-8 offset-2">
+                          <h1>Professional Doctor</h1>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, non cum debitis expedita libero at iure eveniet vel.</p>
+                          <a href="#registration" class="btn btn-lg btn-primary">
+                            Register
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+              <div class="overlay-image" style="background-image: url(2.png);"></div>
+              <div class="container crs" style="text-align: right;">
+                  <div class="row">
+                      <div class="col-8 offset-2">
+                          <h1>Serving Wholeheartedly</h1>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, non cum debitis expedita libero at iure eveniet vel.</p>
+                          <a href="#registration" class="btn btn-lg btn-primary">
+                            Register
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+              <div class="overlay-image" style="background-image: url(3.png);"></div>
+              <div class="container crs" style="text-align: left;">
+                  <div class="row">
+                      <div class="col-8 offset-2">
+                          <h1>Your Health is Our Priority</h1>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, non cum debitis expedita libero at iure eveniet vel.</p>
+                          <a href="#registration" class="btn btn-lg btn-primary">
+                            Register
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+  </section>
+  <!-- akhir carousel -->
+
+
+
+  <!-- konten starts -->
+  <!-- awal section about -->
+  <section class="about" id="about" style="padding-bottom: 50px; padding-top: 20px;">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-10 offset-1 text-center">
+          <h1>About</h1>
+          <div class="underline mb-4"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus repellat cupiditate molestiae sunt voluptatem earum, architecto consectetur consequatur corrupti optio, dignissimos asperiores saepe fugiat nisi incidunt harum! Facere, optio!</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6" style="padding-bottom: 30px;">
+          <img src="4.png" alt="" class="img-fluid" style="width: 500px; padding-bottom: 25px;">
+          <h3>Vission</h3>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis porro, nihil ab doloribus est modi aliquam harum repellat magni at ducimus et iusto numquam totam! Illo vero molestiae esse fugiat.....</p>
+          <a href="#visi" class="btn btn-primary">Read More</a>
+        </div>
+
+        <div class="col-lg-6">
+          <img src="3.png" alt="" class="img-fluid"  style="width: 500px; padding-bottom: 25px;">
+          <h3>Mission</h3>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis porro, nihil ab doloribus est modi aliquam harum repellat magni at ducimus et iusto numquam totam! Illo vero molestiae esse fugiat.....</p>
+          <a href="#visi" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir section about -->
+  
+  <!-- awal section services -->
+  <section class="services p-5 bg-primary" id="services">
+    <div class="container">
+      
+      <div class="row" style="padding-bottom:60px ;">
+        <div class="col-10 offset-1 text-center text-light">
+          <h1>Services</h1>
+          <div class="underline mb-4"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus repellat cupiditate molestiae sunt voluptatem earum, architecto consectetur consequatur corrupti optio, dignissimos asperiores saepe fugiat nisi incidunt harum! Facere, optio!</p>
+        </div>
+      </div>
+
+      <div class="row text-center g-4">
+        <div class="col-md">
+          <div class="card h-100">
+            <div class="card-body text-center" id="dokterumum">
+              <img src="card1.png" class="img-fluid"  alt="">
+              <h3 class="card-title pb-3">General Practicioner</h3>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus facere doloremque magni, repudiandae amet recusandae nemo maiores, consequatur quae culpa repellendus distinctio magnam possimus quam exercitationem odio....</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card h-100">
+            <div class="card-body text-center" id="dokteranak">
+              <img src="card2.png" class="img-fluid"  alt="">
+              <h3 class="card-title pb-3">Pediatric</h3>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus facere doloremque magni, repudiandae amet recusandae nemo maiores, consequatur quae culpa repellendus distinctio magnam possimus quam exercitationem quibusdam odio debitis....</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card h-100">
+            <div class="card-body text-center" id="doktermata">
+              <img src="card3.png" class="img-fluid"  alt="">
+              <h3 class="card-title pb-3">Ophthalmologist</h3>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus facere doloremque magni, repudiandae amet recusandae nemo maiores, consequatur quae culpa repellendus distinctio magnam possimus quam exercitationem quibusdam odio debitis odio debitis....</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card h-100">
+            <div class="card-body text-center" id="dokterTHT">
+              <img src="card4.png" class="img-fluid"  alt="">
+              <h3 class="card-title pb-3">ENT Specialist</h3>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus facere doloremque magni, repudiandae amet recusandae nemo maiores, consequatur quae culpa repellendus distinctio magnam possimus quam exercitationem quibusdam odio debitis....</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card h-100">
+            <div class="card-body text-center" id="dokterObgyn">
+              <img src="card5.png" class="img-fluid"  alt="">
+              <h3 class="card-title pb-3">Obgyn</h3>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus facere doloremque magni, repudiandae amet recusandae nemo maiores, consequatur quae culpa repellendus distinctio magnam possimus quam exercitationem quibusdam odio debitis....</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir section services -->
+
+  <!-- awal section register -->
+  <section class="registration p-5" id="registration">
+    <div class="container">
+
+      <div class="row gy-5">
+        <div class="col-md">
+          <h1 class="text-center">Register Here</h1>
+          <div class="underline mb-4"></div>
+          <form>
+            <div class="mb-2">
+              <label for="name" class="form-label">Patient Name :</label>
+              <input type="text" class="form-control" id="name" placeholder="input patient name" required>
+            </div>
+            <div class="mb-2">
+              <label for="exampleInputEmail1" class="form-label">Email :</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="input email @" required>
+            </div>
+            <div class="mb-2">
+              <label for="notelp" class="form-label">Phone Number :</label>
+              <input type="text" class="form-control" id="notelp" placeholder="input phone number" required>
+            </div>
+            <div class="mb-2">
+              <div class="row">
+                <div class="col">
+                  <label for="umur" class="form-label">Ages :</label>
+                  <select class="form-select" id="umur">
+                    <option>select ages</option>
+                    <option value="1-10">1-10 th</option>
+                    <option value="11-20">11-20 th</option>
+                    <option value="20-29">20-29 th</option>
+                    <option value="29-38">29-38 th</option>
+                  </select>
+                </div>
+                <div class="col">
+                  <label for="jk" class="form-label">Gender :</label>
+                  <select class="form-select" id="jk">
+                    <option>select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-2">
+              <div class="row">
+                <div class="col">
+                  <label for="service" class="form-label">What do you need? :</label>
+                  <select class="form-select" id="service">
+                    <option>select departments</option>
+                    <option value="general practioner">General Practicioner</option>
+                    <option value="pediatric">Pediatric</option>
+                    <option value="ophthalmologist">Ophthalmologist</option>
+                    <option value="ent specialist">ENT Specialist</option>
+                    <option value="obgyn">Obgyn</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-2">
+              <label for="message">Message :</label>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Drop your message here" id="message" style="height: 100px"></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" value="submit" onclick="submit()">Submit</button>
+          </form>
+        </div>
+        <div class="col-md text-center">
+          <h1>Support Partner</h1>
+          <div class="underline mb-4"></div>
+          <img src="BPJS_Kesehatan_logo.svg.png" class="img-fluid" width="500px"  alt="">
+          <img src="mandiri inhealth.png" class="img-fluid" width="500px" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir section register -->
+
+  <!-- awal section timetable -->
+  <section class="timetable p-5 bg-primary" id="timetable">
+    <div class="container">
+      <div class="row" style="padding-bottom:60px ;">
+        <div class="col-10 offset-1 text-center text-light">
+          <h1>Timetables</h1>
+          <div class="underline mb-4"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus repellat cupiditate molestiae sunt voluptatem earum, architecto consectetur consequatur corrupti optio, dignissimos asperiores saepe fugiat nisi incidunt harum! Facere, optio!</p>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle">
+          <thead class="text-center table-dark">
+            <tr>
+              <th>No.</th>
+              <th>Services</th>
+              <th>Day</th>
+              <th>Time</th>
+              <th colspan="3">Doctor</th>
+              <th>Ket</th>
+            </tr>
+          </thead>
+
+
+          <tbody>
+            
+            <tr>
+              <th rowspan="2">1.</th>
+              <td rowspan="2">General Practioner</td>
+              <td class="text-center">Monday - Friday</td>
+              <td class="text-center">09.00 - 15.00 WIB</td>
+              <td>Dr. Abraham</td>
+              <td>Dr. Jonan</td>
+              <td>Dr. Nugraha</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="text-center">Saturday - Sunday</td>
+              <td class="text-center">10.00 - 14.00 WIB</td>
+              <td>Dr. Angelia</td>
+              <td>Dr. Ayunda</td>
+              <td>Dr. Ayumi</td>
+              <td></td>
+            </tr>
+            
+  
+            <tr>
+              <th rowspan="2">2.</th>
+              <td rowspan="2">Pediatric</td>
+              <td class="text-center">Monday - Friday</td>
+              <td class="text-center">09.00 - 15.00 WIB</td>
+              <td>Dr. Andrew</td>
+              <td>Dr. Andi</td>
+              <td>Dr. Andeska</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="text-center">Saturday - Sunday</td>
+              <td class="text-center">10.00 - 14.00 WIB</td>
+              <td>Dr. Susi</td>
+              <td>Dr. Santi</td>
+              <td>Dr. Kartini</td>
+              <td></td>
+            </tr>
+  
+  
+            <tr>
+              <th rowspan="2">3.</th>
+              <td rowspan="2">Ophthalmologist</td>
+              <td class="text-center">Monday - Friday</td>
+              <td class="text-center">10.00 - 15.00 WIB</td>
+              <td>Dr. Annisa</td>
+              <td>Dr. Johan</td>
+              <td>Dr. Anjani</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="text-center">Saturday - Sunday</td>
+              <td class="text-center">10.00 - 14.00 WIB</td>
+              <td>Dr. Gunawan</td>
+              <td>Dr. Guntur</td>
+              <td>Dr. Larasati</td>
+              <td></td>
+            </tr>
+  
+  
+            <tr>
+              <th rowspan="2">4.</th>
+              <td rowspan="2">ENT Specialist</td>
+              <td class="text-center">Monday - Friday</td>
+              <td class="text-center">09.30 - 15.00 WIB</td>
+              <td>Dr. Wahyudi</td>
+              <td>Dr. Putri</td>
+              <td>Dr. Candra</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="text-center">Saturday - Sunday</td>
+              <td class="text-center">10.00 - 14.00 WIB</td>
+              <td>Dr. Ahmad</td>
+              <td>Dr. Anjasmara</td>
+              <td>Dr. Andika</td>
+              <td></td>
+            </tr>
+  
+  
+            <tr>
+              <th rowspan="2">5.</th>
+              <td rowspan="2">Obgyn</td>
+              <td class="text-center">Monday - Friday</td>
+              <td class="text-center">08.30 - 15.00 WIB</td>
+              <td>Dr. Ayulisa</td>
+              <td>Dr. Arlina</td>
+              <td>Dr. Jonatan</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="text-center">Saturday - Sunday</td>
+              <td class="text-center">09.30 - 14.30 WIB</td>
+              <td>Dr. Mufliha</td>
+              <td>Dr. Johny</td>
+              <td>Dr. Shinta</td>
+              <td></td>
+            </tr>
+  
+  
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <!-- akhir section timetable -->
+
+  <!-- awal section news -->
+  <section class="news p-5" id="news">
+    <div class="container">
+      <h1 class="display-3 text-center fw-bold mb-4">
+          <span class="text-success">Blog</span> News
+      </h1>
+      <div class="row">
+          <div class="owl-carousel owl-theme">
+              <div class="card">
+                  <div class="card-body">
+                      <img src="https://images.pexels.com/photos/382177/pexels-photo-382177.jpeg?auto=compress&cs=tinysrgb&w=600" alt="card1" class="card-img-top" height="300px ">
+                      <hr/>
+                      <h3>
+                        Pantangan Olahraga bagi Pasien Epilepsi: Panjat Tebing-Paralayang
+                      </h3>
+                      <p>Dokter spesialis saraf, Irawati Hawari, ingatkan penderita epilepsi untuk tidak membawa kendaraan sampai penyakit benar-benar terkontrol. Penderita juga dilarang melakukan beberapa olahraga tertentu.                       
+                      </p>
+                      <a href="https://health.detik.com/detiktv/d-7146958/pantangan-olahraga-bagi-pasien-epilepsi-panjat-tebing-paralayang" class="btn btn-primary">Read More</a>
+                  </div>
+                  <div class="card-footer">
+                    <p>Rabu, 17 Jan 2024 20:22 WIB</p>
+                  </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                    <img src="https://media.istockphoto.com/id/1038799988/id/foto/sembuh-anak-kecil-terbaring-di-ranjang-rumah-sakit-tidur-ibu-pegang-tangannya-menghibur-fokus.jpg?b=1&s=612x612&w=0&k=20&c=tdfmA2SvXh877nKu1wueQNgvgo7E7-vpZKvzWbDQvT4=" alt="card1" class="card-img-top" height="300px ">
+                    <hr/>
+                    <h3>
+                      Sering Disalahpahami, Epilepsi Tak Hanya Menyerang Sejak Usia Dini
+                    </h3>
+                    <p>Dokter spesialis saraf, Irawati Hawari, menyebut masyarakat harus bisa memahami penyakit epilepsi yang benar lantaran banyaknya pemahaman yang salah. Berikut beberapa hal yang harus diluruskan...                      
+                    </p>
+                    <a href="https://health.detik.com/detiktv/d-7146858/sering-disalahpahami-epilepsi-tak-hanya-menyerang-sejak-usia-dini" class="btn btn-primary">Read More</a>
+                </div>
+                <div class="card-footer">
+                  <p>Rabu, 17 Jan 2024 19:35 WIB</p>
+                </div>
+              </div>
+              <div class="card">
+                  <div class="card-body">
+                      <img src="https://akcdn.detik.net.id/community/media/visual/2020/10/30/ilustrasi-lembur_169.jpeg?w=700&q=90" alt="card1" class="card-img-top" height="300px ">
+                      <hr/>
+                      <h3>
+                        5 Kebiasaan Sehari-hari yang Ternyata Bisa Perpendek Umur, Awas Mati Muda!
+                      </h3>
+                      <p>Hidup sehat dan panjang umur bukan hal yang tidak mungkin. Kebiasaan sehari-hari sangat berpengaruh dan menentukan kondisi tubuh seseorang.
+                      </p>
+                      <a href="https://health.detik.com/berita-detikhealth/d-7141783/5-kebiasaan-sehari-hari-yang-ternyata-bisa-perpendek-umur-awas-mati-muda" class="btn btn-primary">Read More</a>
+                  </div>
+                  <div class="card-footer">
+                    <p>Senin, 15 Jan 2024 10:00 WIB</p>
+                  </div>
+              </div>              
+              <div class="card">
+                  <div class="card-body">
+                      <img src="https://akcdn.detik.net.id/community/media/visual/2024/01/10/pria-diet-tak-makan-nasi-13-tahun_169.jpeg?w=700&q=90" alt="card1" class="card-img-top" height="300px ">
+                      <hr/>
+                      <h3>
+                        Tak Makan Nasi Selama 13 Tahun, Begini Efeknya
+                      </h3>
+                      <p>Seorang pria di Malaysia tak makan nasi selama 13 tahun. Hal ini dilakukan dengan sengaja karena ia melakukannya untuk diet.                 
+                      </p>
+                      <a href="https://www.detik.com/jabar/kuliner/d-7134865/tak-makan-nasi-selama-13-tahun-begini-efeknya" class="btn btn-primary">Read More</a>
+                  </div>
+                  <div class="card-footer">
+                    <p>Kamis, 11 Jan 2024 12:00 WIB</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-body">
+                      <img src="https://akcdn.detik.net.id/community/media/visual/2022/06/09/ilustrasi-air-minum-kemasan.jpeg?w=700&q=90" alt="card1" class="card-img-top" height="300px ">
+                      <hr/>
+                      <h3>
+                        Ilmuwan Temukan Ratusan Ribu Mikroplastik Dalam Air Minum Kemasan, Apa Berbahaya?
+                      </h3>
+                      <p>Para peneliti di Universitas Columbia dan Rutgers telah melakukan perhitungan kandungan potongan plastik dalam air minum kemasan. Hasilnya, peneliti menemukan ratusan ribu mikroplastik dalam air minum kemasan per liternya.                     
+                      </p>
+                      <a href="https://www.detik.com/edu/detikpedia/d-7134284/ilmuwan-temukan-ratusan-ribu-mikroplastik-dalam-air-minum-kemasan-apa-berbahaya" class="btn btn-primary">Read More</a>
+                  </div>
+                  <div class="card-footer">
+                    <p>Rabu, 10 Jan 2024 20:00 WIB</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-body">
+                      <img src="https://akcdn.detik.net.id/community/media/visual/2023/08/26/ilustrasi-hujan_169.jpeg?w=700&q=90" alt="card1" class="card-img-top" height="300px ">
+                      <hr/>
+                      <h3>
+                        9 Tips Tetap Sehat dan Bugar saat Musim Hujan, Tak Mudah Terserang Penyakit
+                      </h3>
+                      <p>Musim hujan belakangan mulai melanda sejumlah wilayah di Indonesia. Bahkan, beberapa disertai dengan angin kencang hingga menimbulkan banjir.                
+                      </p>
+                      <a href="https://health.detik.com/health-news/d-7132151/9-tips-tetap-sehat-dan-bugar-saat-musim-hujan-tak-mudah-terserang-penyakit" class="btn btn-primary">Read More</a>
+                  </div>
+                  <div class="card-footer">
+                    <p>Selasa, 09 Jan 2024 13:01 WIB</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-body">
+                      <img src="https://akcdn.detik.net.id/community/media/visual/2017/12/29/a7092fe5-cccc-49a8-9035-a9901a96bd18.jpg?w=700&q=90" alt="card1" class="card-img-top" height="300px ">
+                      <hr/>
+                      <h3>
+                        Ini 7 Warna Urine dan Indikator Kesehatannya, Kamu Termasuk yang Mana?
+                      </h3>
+                      <p>Urine biasanya memiliki warna mulai dari bening hingga kuning pucat. Namun, hal-hal tertentu ternyata dapat mengubah warna urine menjadi berbeda. Apa saja warna-warna urine?         
+                      </p>
+                      <a href="https://www.detik.com/edu/detikpedia/d-7131015/ini-7-warna-urine-dan-indikator-kesehatannya-kamu-termasuk-yang-mana" class="btn btn-primary">Read More</a>
+                  </div>
+                  <div class="card-footer">
+                    <p>Selasa, 09 Jan 2024 06:00 WIB</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-body">
+                      <img src="https://akcdn.detik.net.id/community/media/visual/2015/07/24/4d68953b-2076-4e56-a568-4d42c0d8beb3.jpg?w=700&q=90" alt="card1" class="card-img-top" height="300px ">
+                      <hr/>
+                      <h3>
+                        Liburan Jadi Sering Rebahan? Pakar UMM Ungkap Bahayanya
+                      </h3>
+                      <p>aat ini, siswa sedang memasuki waktu libur tahun mengajar. Tak hanya bepergian, waktu liburan juga nyaman diisi dengan bahan bakar.               
+                      </p>
+                      <a href="https://www.detik.com/edu/detikpedia/d-7129952/liburan-jadi-sering-rebahan-pakar-umm-ungkap-bahayanya" class="btn btn-primary">Read More</a>
+                  </div>
+                  <div class="card-footer">
+                    <p>Senin, 08 Jan 2024 12:30 WIB</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-body">
+                      <img src="https://images.pexels.com/photos/1001850/pexels-photo-1001850.jpeg?auto=compress&cs=tinysrgb&w=600" alt="card1" class="card-img-top" height="300px ">
+                      <hr/>
+                      <h3>
+                        5 Kebiasaan untuk Mengurangi Stres pada 2024 Menurut Pakar, Sudah Coba?
+                      </h3>
+                      <p>Ada banyak resolusi yang dibuat saat tahun baru tiba. Namun, pakar kesehatan dari berbagai kampus memberi tips buat seseorang yang ingin mengelola stres lebih baik pada 2024 ini.      
+                      </p>
+                      <a href="https://www.detik.com/edu/detikpedia/d-7128366/5-kebiasaan-untuk-mengurangi-stres-pada-2024-menurut-pakar-sudah-coba" class="btn btn-primary">Read More</a>
+                  </div>
+                  <div class="card-footer">
+                    <p>Senin, 08 Jan 2024 09:30 WIB</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-body">
+                      <img src="https://akcdn.detik.net.id/community/media/visual/2016/02/11/6aa8952c-8c04-45b5-a80e-6328f2c8ce5a_169.jpg?w=700&q=90" alt="card1" class="card-img-top" height="300px ">
+                      <hr/>
+                      <h3>
+                        7 Manfaat 'Ajaib' Air Rebusan Serai
+                      </h3>
+                      <p>erai dikenal sebagai salah satu tanaman yang punya khasiat 'ajaib'. Ada beragam penyakit yang bisa dicegah atau diobati secara bertahap dengan mengonsumsi serai.
+                      </p>
+                      <a href="https://www.detik.com/jabar/berita/d-7120935/7-manfaat-ajaib-ai-rebusan-serai" class="btn btn-primary">Read More</a>
+                  </div>
+                  <div class="card-footer">
+                    <p>Sabtu, 06 Jan 2024 11:00 WIB</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-body">
+                      <img src="https://akcdn.detik.net.id/community/media/visual/2023/09/16/ilustrasi-jalan-kaki_169.jpeg?w=700&q=90" alt="card1" class="card-img-top" height="300px ">
+                      <hr/>
+                      <h3>
+                        Manfaat Jalan Kaki 4 Ribu Langkah Bagi Otak
+                      </h3>
+                      <p>Aktivitas berjalan kaki terkesan 'enteng'. Namun berjalan kaki sebenarnya punya banyak manfaat buat tubuh.
+                      </p>
+                      <a href="https://www.detik.com/sumut/berita/d-7113761/manfaat-jalan-kaki-4-ribu-langkah-bagi-otak" class="btn btn-primary">Read More</a>
+                  </div>
+                  <div class="card-footer">
+                    <p>Jumat, 29 Des 2023 05:00 WIB</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir section news -->
+
+  <!-- awal section contact-->
+  <section class="contact p-5 bg-primary" id="contact">
+    <div class="container overflow-hidden">
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <h1 class="my-5 text-light">Contact Us!</h1>
+          
+          <form>
+
+            <div class="form-floating mb-3">
+              <i class="icon fa-solid fa-user-tie fa-lg"></i>
+              <input type="text" class="form-control" id="floatingName" placeholder="Name">
+              <label for="floatingName">Name</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <i class="icon fa-solid fa-envelope fa-lg"></i>
+              <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
+              <label for="floatingEmail">Email</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <i class="icon fa-solid fa-phone fa-lg"></i>
+              <input type="text" class="form-control" id="floatingPhone" placeholder="Phone">
+              <label for="floatingPhone">Phone</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <i class="icon-textarea fa-solid fa-message fa-lg"></i>
+              <textarea class="form-control" id="floatingTextArea" placeholder="Leave comment here" style="height: 100px;"></textarea>
+              <label for="floatingTextArea">Comments</label>
+            </div>
+
+            <button type="submit" class="btn btn-light btn-outline-dark">Submit</button>
+
+          </form>
+        </div>
+
+        <div class="col-lg-6 offset-1 text-light">
+          <h1 class="my-5 text-light">Follow Us!</h1>
+
+          <ul class="list-group list-group-horizontal mb-5">
+            <i class="fa-brands fa-whatsapp" style="font-size: 40px;"></i>
+            <h3 style="font-size: 18px; margin-top: 8px; margin-left: 10px;">Whatsapp | +6281323406789</h3>
+          </ul>
+          <ul class="list-group list-group-horizontal mb-5">
+            <i class="fa-brands fa-facebook" style="font-size: 40px;"></i>
+            <h3 style="font-size: 18px; margin-top: 8px; margin-left: 10px;">Facebook | Nugraha's Clinic</h3>
+          </ul>
+          <ul class="list-group list-group-horizontal mb-5">
+            <i class="fa-brands fa-instagram" style="font-size: 40px;"></i>
+            <h3 style="font-size: 18px; margin-top: 8px; margin-left: 10px;">Instagram | @Nugraha's Clinic</h3>
+          </ul>
+          <ul class="list-group list-group-horizontal mb-5">
+            <i class="fa-brands fa-x-twitter" style="font-size: 40px;"></i>
+            <h3 style="font-size: 18px; margin-top: 8px; margin-left: 10px;">Twitter | Nugraha's Clinic</h3>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- akhir section contact-->
+
+  <!-- awal section faqs -->
+  <section class="faqs p-5" id="faqs">
+    <div class="container">
+      <div class="row" style="padding-bottom:60px ;">
+        <div class="col-10 offset-1 text-center">
+          <h1>FAQ</h1>
+          <div class="underline mb-4"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, minus repellat cupiditate molestiae sunt voluptatem earum, architecto consectetur consequatur corrupti optio, dignissimos asperiores saepe fugiat nisi incidunt harum! Facere, optio!</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div id="accordion">
+
+            <div class="card mb-2 bg-primary">
+              <div class="card-header">
+                <a class="btn text-light" data-bs-toggle="collapse" href="#collapseOne">
+                  Bagaimana caranya untuk mendaftar berobat?
+                </a>
+              </div>
+              <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body text-light">
+                  Silahkan klik tombol register atau bisa anda scroll pada halaman ini lalu bisa anda temukan di bawah halaman services.
+                </div>
+              </div>
+            </div>
+          
+            <div class="card mb-2 bg-primary">
+              <div class="card-header">
+                <a class="collapsed btn text-light" data-bs-toggle="collapse" href="#collapseTwo">
+                  Berapa biaya pengobatan disini?
+                </a>
+              </div>
+              <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body text-light">
+                  Biaya pengobatan bervariasi mulai dari IDR50.000.
+                </div>
+              </div>
+            </div>
+          
+            <div class="card mb-2 bg-primary">
+              <div class="card-header">
+                <a class="collapsed btn text-light" data-bs-toggle="collapse" href="#collapseThree">
+                  Apakah dokter selalu ada setiap hari?
+                </a>
+              </div>
+              <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body text-light">
+                  Jadwal dokter dapat dilihat pada halaman timetable.
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- akhir section faqs -->
+  <!-- konten end -->
+
+
+
+  <!-- footer start -->
+  <!-- <section class="footer " id="footer"> -->
+    <footer class="bg-primary text-white pt-5 pb-4">
+      <div class="container text-md-left">
+
+        <div class="row text-md-left mb-5">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light">Nugraha's Clinic</h5>
+            <hr class="hr-footer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, in ipsa commodi quidem maxime optio!</p>
+            <p class="mt-4">
+              <i class="fa-brands fa-facebook" style="font-size: 30px; margin-right: 17px;"></i>
+              <i class="fa-brands fa-whatsapp" style="font-size: 30px; margin-right: 17px;"></i>
+              <i class="fa-brands fa-instagram" style="font-size: 30px; margin-right: 17px;"></i>
+              <i class="fa-brands fa-x-twitter" style="font-size: 30px; margin-right: 17px;"></i>
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light">Services</h5>
+            <p><hr class="hr-footer">
+              <a href="#dokterumum" class="text-white" style="text-decoration: none;">General Practioner</a>
+            </p>
+            <p>
+              <a href="#dokteranak" class="text-white" style="text-decoration: none;">Pediatric</a>
+            </p>
+            <p>
+              <a href="#doktermata" class="text-white" style="text-decoration: none;">Ophthalmologist</a>
+            </p>
+            <p>
+              <a href="#dokterTHT" class="text-white" style="text-decoration: none;">ENT Specialist</a>
+            </p>
+            <p>
+              <a href="#dokterObgyn" class="text-white" style="text-decoration: none;">Obgyns</a>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light">Usefull Link</h5>
+            <p><hr class="hr-footer">
+              <a href="#" class="text-white" style="text-decoration: none;">Your Registration Status</a>
+            </p>
+            <p>
+              <a href="https://youtube.com/@Alodokter_id?si=LpsxQF2gMpSh_3mP" class="text-white" style="text-decoration: none;">YouTube</a>
+            </p>
+            <p>
+              <a href="#news" class="text-white" style="text-decoration: none;">Blog News</a>
+            </p>
+            <p>
+              <a href="https://www.alodokter.com/?gad_source=1&gclid=Cj0KCQiAtaOtBhCwARIsAN_x-3K2ay2ZcbPjNRLyMaiKbcEPf0sbLnxYMRbj1LxmpiKHrBTnRmkgfi4aApWMEALw_wcB" class="text-white" style="text-decoration: none;">Alo Dokter</a>
+            </p>
+            <p>
+              <a href="https://www.jobstreet.co.id/" class="text-white" style="text-decoration: none;">Carier</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Terms and Conditions</a>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light">Contact</h5>
+            <p><hr class="hr-footer">
+              <i class="fa-solid fa-location-dot" style="margin-right: 2px; font-size: 20px;"></i> Pekanbaru city 
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope" style="margin-right: 2px; font-size: 20px;"></i> adminclinic@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-phone" style="margin-right: 2px; font-size: 20px;"></i> +62-813-1345-2341
+            </p>
+            <p>
+              <i class="fa-solid fa-print" style="margin-right: 2px; font-size: 20px;"></i> +12-723-01
+            </p>
+            
+          </div>
+        </div>
+
+        <div class="underline-footer mb-4"></div>
+
+        <div class="row align-items-center text-center">
+          <div class="col-md-7 col-lg-12 align-middle">
+            <p> copyright <i class="fa-regular fa-copyright"></i> 2024 All rights reserved by :
+              <a href="#" style="text-decoration: none;">
+                <strong class="text-light">Jatayu Duta Nugraha</strong>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!-- </section> -->
+  <!-- footer end -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- cdn javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+
+  <!-- jquery cdn link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- JS CDN EXTERNAL CDN LINK FOR OWL CAROUSEL LIB -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:3
+              },
+              1000:{
+                  items:5
+              }
+          }
+      })
+  </script>
+
+</body>
+</html>
